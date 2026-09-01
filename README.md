@@ -1,4 +1,4 @@
-# Personal Finance Agent
+# Finance Intelligence Agent
 
 **Import a bank export, and ask questions about it in plain English. The answers come from SQL and pandas over your actual rows, not from the model's impression of them.**
 
@@ -33,8 +33,7 @@ Adding a keyword to `CATEGORY_KEYWORDS` is the intended way to improve it, and i
 Python 3.10+ and an [Orq.ai](https://orq.ai/) key.
 
 ```bash
-git clone https://github.com/Sumanth077/Hands-On-AI-Engineering.git
-cd Hands-On-AI-Engineering/ai_agents/personal_finance_agent
+git clone https://github.com/hariharan-sabapathi/Finance-Intelligence-Agent
 
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
@@ -80,7 +79,7 @@ Each import replaces the previous dataset. There is no merging and no deduplicat
 ## Layout
 
 ```text
-personal_finance_agent/
+Finance-Intelligence-Agent/
 ├── app.py             # Streamlit UI
 ├── agent.py           # ingestion, categorization, tools, agent graph
 ├── transactions.csv   # 88 synthetic transactions
@@ -92,5 +91,3 @@ personal_finance_agent/
     ├── demo.png
     └── demo.gif
 ```
-
-`finance.db` is created on first import and is not tracked.
