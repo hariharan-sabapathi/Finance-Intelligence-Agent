@@ -1,0 +1,9 @@
+# Your imported transactions live here — never commit this
+finance.db
+
+.env
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.streamlit/secrets.toml
